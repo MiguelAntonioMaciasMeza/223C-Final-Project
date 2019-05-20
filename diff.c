@@ -144,7 +144,7 @@ void init_options_files(int argc, const char* argv[]) {
     diff_output_conflict_error();
   }
   
-  showoptions(files[0], files[1]);
+ // showoptions(files[0], files[1]);
   loadfiles(files[0], files[1]);
 }
 
